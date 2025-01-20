@@ -14,11 +14,8 @@ const Login = () => {
 
   return (
 
-
-  
-
     <>
-      <div className='min-h-screen bg-gray-400 flex justify-center p-4 items-center '>
+      <div className='min-h-screen bg-gray-200 flex justify-center p-4 items-center '>
         <div className='w-full max-w-md bg-gradient-to-r from-gray-500 to-gray-700  p-8 rounded-br-xl rounded-tl-xl'>
             <h2 className='font-bold text-2xl text-center mb-2 text-white'>Login</h2>
             <form action="" onSubmit={handleSubmit}>
